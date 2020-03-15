@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--LaunchScreen-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" userLabel="LaunchScreen" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.69999999999999996" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="caffeine-coffee-cup-6347" translatesAutoresizingMaskIntoConstraints="NO" id="s5u-9d-854">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DIYCoffeeLogoDark" translatesAutoresizingMaskIntoConstraints="NO" id="hqQ-eb-gVc">
+                                <rect key="frame" x="43" y="69" width="328" height="174"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="174" id="ikV-cS-L3x"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loading....." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aVG-Tf-i2U">
+                                <rect key="frame" x="127" y="765" width="161" height="41"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="aVG-Tf-i2U" secondAttribute="height" multiplier="161:41" id="ddP-mC-P3Q"/>
+                                    <constraint firstAttribute="height" constant="41" id="uFC-bg-z2f"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="31"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.93333333333333335" green="0.92549019607843142" blue="0.93725490196078431" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="aVG-Tf-i2U" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="127" id="BgU-X3-ih3"/>
+                            <constraint firstItem="s5u-9d-854" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="Ehy-eb-JJP"/>
+                            <constraint firstItem="s5u-9d-854" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="KKJ-fS-D8H"/>
+                            <constraint firstItem="s5u-9d-854" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="O4T-Sj-A7y"/>
+                            <constraint firstItem="hqQ-eb-gVc" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="43" id="PTt-9i-4Mx"/>
+                            <constraint firstItem="hqQ-eb-gVc" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="25" id="Pft-sk-wsq"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="aVG-Tf-i2U" secondAttribute="bottom" constant="56" id="axP-ey-nCt"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="aVG-Tf-i2U" secondAttribute="trailing" constant="126" id="vzI-SD-cw5"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="hqQ-eb-gVc" secondAttribute="trailing" constant="43" id="wdd-vy-2hd"/>
+                            <constraint firstAttribute="bottom" secondItem="s5u-9d-854" secondAttribute="bottom" id="xSD-96-TQw"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="DIYCoffeeLogoDark" width="68" height="47"/>
+        <image name="caffeine-coffee-cup-6347" width="3648" height="5472"/>
+    </resources>
+</document>

@@ -1,0 +1,399 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC1989D323C8AA6C000424F3 /* ApplienceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1989D223C8AA6C000424F3 /* ApplienceCell.swift */; };
+		AC7D655823AE7F3200077A26 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7D655723AE7F3200077A26 /* AppDelegate.swift */; };
+		AC7D655A23AE7F3200077A26 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7D655923AE7F3200077A26 /* SceneDelegate.swift */; };
+		AC7D655C23AE7F3200077A26 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7D655B23AE7F3200077A26 /* MainVC.swift */; };
+		AC7D656123AE7F3300077A26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC7D656023AE7F3300077A26 /* Assets.xcassets */; };
+		AC7D656423AE7F3300077A26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC7D656223AE7F3300077A26 /* LaunchScreen.storyboard */; };
+		AC7D656F23AFDD1E00077A26 /* CoffeeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7D656E23AFDD1E00077A26 /* CoffeeVC.swift */; };
+		AC7D657123AFDD3F00077A26 /* MainVCButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7D657023AFDD3F00077A26 /* MainVCButton.swift */; };
+		AC7D657323B21F0E00077A26 /* ApplienceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7D657223B21F0E00077A26 /* ApplienceVC.swift */; };
+		AC7D657523B21F1D00077A26 /* PlacesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7D657423B21F1D00077A26 /* PlacesVC.swift */; };
+		AC7D659723B38E1900077A26 /* CoffeeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7D659623B38E1900077A26 /* CoffeeCell.swift */; };
+		AC7D659923B3AD6200077A26 /* Coffee.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7D659823B3AD6200077A26 /* Coffee.swift */; };
+		AC7D659B23B3AEA200077A26 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7D659A23B3AEA200077A26 /* DataService.swift */; };
+		AC86D3CB23B686C800BA7AD7 /* CoffeeDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC86D3CA23B686C800BA7AD7 /* CoffeeDetailVC.swift */; };
+		AC8D30DD23D9CCD400309135 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8D30DC23D9CCD400309135 /* Article.swift */; };
+		AC8EF8B523CF424C00B6AA80 /* ApplienceDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8EF8B423CF424C00B6AA80 /* ApplienceDetailVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AC1989D223C8AA6C000424F3 /* ApplienceCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplienceCell.swift; sourceTree = "<group>"; };
+		AC7D655423AE7F3200077A26 /* DIY Coffee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DIY Coffee.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC7D655723AE7F3200077A26 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AC7D655923AE7F3200077A26 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AC7D655B23AE7F3200077A26 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		AC7D656023AE7F3300077A26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC7D656323AE7F3300077A26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AC7D656523AE7F3300077A26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC7D656E23AFDD1E00077A26 /* CoffeeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeVC.swift; sourceTree = "<group>"; };
+		AC7D657023AFDD3F00077A26 /* MainVCButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVCButton.swift; sourceTree = "<group>"; };
+		AC7D657223B21F0E00077A26 /* ApplienceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplienceVC.swift; sourceTree = "<group>"; };
+		AC7D657423B21F1D00077A26 /* PlacesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesVC.swift; sourceTree = "<group>"; };
+		AC7D659623B38E1900077A26 /* CoffeeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeCell.swift; sourceTree = "<group>"; };
+		AC7D659823B3AD6200077A26 /* Coffee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coffee.swift; sourceTree = "<group>"; };
+		AC7D659A23B3AEA200077A26 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		AC86D3CA23B686C800BA7AD7 /* CoffeeDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeDetailVC.swift; sourceTree = "<group>"; };
+		AC8D30DC23D9CCD400309135 /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
+		AC8EF8B423CF424C00B6AA80 /* ApplienceDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplienceDetailVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC7D655123AE7F3200077A26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC7D654B23AE7F3200077A26 = {
+			isa = PBXGroup;
+			children = (
+				AC7D655623AE7F3200077A26 /* DIY Coffee */,
+				AC7D655523AE7F3200077A26 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC7D655523AE7F3200077A26 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC7D655423AE7F3200077A26 /* DIY Coffee.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC7D655623AE7F3200077A26 /* DIY Coffee */ = {
+			isa = PBXGroup;
+			children = (
+				AC7D656C23AFDCDB00077A26 /* Model */,
+				AC7D656B23AFDCD300077A26 /* View */,
+				AC7D656D23AFDCE600077A26 /* Controller */,
+				AC7D655723AE7F3200077A26 /* AppDelegate.swift */,
+				AC7D655923AE7F3200077A26 /* SceneDelegate.swift */,
+				AC7D656023AE7F3300077A26 /* Assets.xcassets */,
+				AC7D656223AE7F3300077A26 /* LaunchScreen.storyboard */,
+				AC7D656523AE7F3300077A26 /* Info.plist */,
+			);
+			path = "DIY Coffee";
+			sourceTree = "<group>";
+		};
+		AC7D656B23AFDCD300077A26 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AC7D657023AFDD3F00077A26 /* MainVCButton.swift */,
+				AC7D659623B38E1900077A26 /* CoffeeCell.swift */,
+				AC1989D223C8AA6C000424F3 /* ApplienceCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AC7D656C23AFDCDB00077A26 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AC7D659823B3AD6200077A26 /* Coffee.swift */,
+				AC7D659A23B3AEA200077A26 /* DataService.swift */,
+				AC8D30DC23D9CCD400309135 /* Article.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AC7D656D23AFDCE600077A26 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AC7D655B23AE7F3200077A26 /* MainVC.swift */,
+				AC7D656E23AFDD1E00077A26 /* CoffeeVC.swift */,
+				AC86D3CA23B686C800BA7AD7 /* CoffeeDetailVC.swift */,
+				AC7D657223B21F0E00077A26 /* ApplienceVC.swift */,
+				AC7D657423B21F1D00077A26 /* PlacesVC.swift */,
+				AC8EF8B423CF424C00B6AA80 /* ApplienceDetailVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC7D655323AE7F3200077A26 /* DIY Coffee */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC7D656823AE7F3300077A26 /* Build configuration list for PBXNativeTarget "DIY Coffee" */;
+			buildPhases = (
+				AC7D655023AE7F3200077A26 /* Sources */,
+				AC7D655123AE7F3200077A26 /* Frameworks */,
+				AC7D655223AE7F3200077A26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DIY Coffee";
+			productName = "DIY Coffee";
+			productReference = AC7D655423AE7F3200077A26 /* DIY Coffee.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC7D654C23AE7F3200077A26 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Thomas Pigg";
+				TargetAttributes = {
+					AC7D655323AE7F3200077A26 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = AC7D654F23AE7F3200077A26 /* Build configuration list for PBXProject "DIY Coffee" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC7D654B23AE7F3200077A26;
+			productRefGroup = AC7D655523AE7F3200077A26 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC7D655323AE7F3200077A26 /* DIY Coffee */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC7D655223AE7F3200077A26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC7D656423AE7F3300077A26 /* LaunchScreen.storyboard in Resources */,
+				AC7D656123AE7F3300077A26 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC7D655023AE7F3200077A26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC86D3CB23B686C800BA7AD7 /* CoffeeDetailVC.swift in Sources */,
+				AC7D657323B21F0E00077A26 /* ApplienceVC.swift in Sources */,
+				AC7D657123AFDD3F00077A26 /* MainVCButton.swift in Sources */,
+				AC1989D323C8AA6C000424F3 /* ApplienceCell.swift in Sources */,
+				AC7D655C23AE7F3200077A26 /* MainVC.swift in Sources */,
+				AC8EF8B523CF424C00B6AA80 /* ApplienceDetailVC.swift in Sources */,
+				AC7D659723B38E1900077A26 /* CoffeeCell.swift in Sources */,
+				AC7D655823AE7F3200077A26 /* AppDelegate.swift in Sources */,
+				AC7D659923B3AD6200077A26 /* Coffee.swift in Sources */,
+				AC7D657523B21F1D00077A26 /* PlacesVC.swift in Sources */,
+				AC7D656F23AFDD1E00077A26 /* CoffeeVC.swift in Sources */,
+				AC7D655A23AE7F3200077A26 /* SceneDelegate.swift in Sources */,
+				AC7D659B23B3AEA200077A26 /* DataService.swift in Sources */,
+				AC8D30DD23D9CCD400309135 /* Article.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AC7D656223AE7F3300077A26 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC7D656323AE7F3300077A26 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC7D656623AE7F3300077A26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC7D656723AE7F3300077A26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC7D656923AE7F3300077A26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 93V8883D9N;
+				INFOPLIST_FILE = "DIY Coffee/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "tompigg.DIY-Coffee";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		AC7D656A23AE7F3300077A26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 93V8883D9N;
+				INFOPLIST_FILE = "DIY Coffee/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "tompigg.DIY-Coffee";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC7D654F23AE7F3200077A26 /* Build configuration list for PBXProject "DIY Coffee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC7D656623AE7F3300077A26 /* Debug */,
+				AC7D656723AE7F3300077A26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC7D656823AE7F3300077A26 /* Build configuration list for PBXNativeTarget "DIY Coffee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC7D656923AE7F3300077A26 /* Debug */,
+				AC7D656A23AE7F3300077A26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC7D654C23AE7F3200077A26 /* Project object */;
+}
