@@ -21,17 +21,3 @@ struct Coffee {
     }
 }
 
-
-struct Applience {
-    
-    let tital: String
-    let image: String
-    let description: String
-    
-    init(title: String, image: String, description: String) {
-        self.tital = title
-        self.image = image
-        self.description = description
-    }
-    
-}

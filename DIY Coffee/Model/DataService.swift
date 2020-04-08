@@ -61,7 +61,6 @@ The siphon is a fancy and flashy coffee maker. It can be a fun way to make coffe
     
 //MARK:- Articles
     
-//    let articles : [Article] = [Article(header: , body: )]
-    
+   
     
 }

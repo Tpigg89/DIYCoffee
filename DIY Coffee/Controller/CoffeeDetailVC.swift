@@ -95,6 +95,21 @@ class CoffeeDetailVC: UIViewController {
         }
 
     @objc func makeItScreen() {
-         
+        if titalHeader.text == "Espresso"{
+            let nextScreen = MakeItEspresso()
+            navigationController?.pushViewController(nextScreen, animated: true)
+        } else if titalHeader.text == "Cappuccino" {
+            let nextScreen = MakeItCappucino()
+            navigationController?.pushViewController(nextScreen, animated: true)
+        } else if titalHeader.text == "Flat White" {
+            let nextScreen = MakeItFlatWhite()
+            navigationController?.pushViewController(nextScreen, animated: true)
+        } else if titalHeader.text == "Latte" {
+            let nextscreen = MakeItLatte()
+            navigationController?.pushViewController(nextscreen, animated: true)
+        } else if titalHeader.text == "Caffè macchiato" {
+            let nextScreen = MakeItCaffeMacchiato()
+            navigationController?.pushViewController(nextScreen, animated: true)
+        } else {return}
     }
 }

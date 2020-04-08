@@ -7,7 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC07D598243B6AE70086A277 /* PlacesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC07D597243B6AE70086A277 /* PlacesCell.swift */; };
+		AC07D59A243B6B150086A277 /* Applience.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC07D599243B6B150086A277 /* Applience.swift */; };
+		AC07D59C243B6B570086A277 /* Places.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC07D59B243B6B570086A277 /* Places.swift */; };
+		AC07D59E243DD0DD0086A277 /* PlacesMapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC07D59D243DD0DD0086A277 /* PlacesMapVC.swift */; };
 		AC1989D323C8AA6C000424F3 /* ApplienceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1989D223C8AA6C000424F3 /* ApplienceCell.swift */; };
+		AC2F9EE7243202760021A191 /* MakeItEspresso.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2F9EE6243202760021A191 /* MakeItEspresso.swift */; };
+		AC2F9EE9243207430021A191 /* MakeItCappucino.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2F9EE8243207430021A191 /* MakeItCappucino.swift */; };
+		AC2F9EEB243207EF0021A191 /* MakeItFlatWhite.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2F9EEA243207EF0021A191 /* MakeItFlatWhite.swift */; };
+		AC2F9EED24320BB60021A191 /* MakeItLatte.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2F9EEC24320BB60021A191 /* MakeItLatte.swift */; };
+		AC2F9EEF24320BD20021A191 /* MakeItCaffeMacchiato.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2F9EEE24320BD20021A191 /* MakeItCaffeMacchiato.swift */; };
 		AC7D655823AE7F3200077A26 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7D655723AE7F3200077A26 /* AppDelegate.swift */; };
 		AC7D655A23AE7F3200077A26 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7D655923AE7F3200077A26 /* SceneDelegate.swift */; };
 		AC7D655C23AE7F3200077A26 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7D655B23AE7F3200077A26 /* MainVC.swift */; };
@@ -21,12 +30,20 @@
 		AC7D659923B3AD6200077A26 /* Coffee.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7D659823B3AD6200077A26 /* Coffee.swift */; };
 		AC7D659B23B3AEA200077A26 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7D659A23B3AEA200077A26 /* DataService.swift */; };
 		AC86D3CB23B686C800BA7AD7 /* CoffeeDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC86D3CA23B686C800BA7AD7 /* CoffeeDetailVC.swift */; };
-		AC8D30DD23D9CCD400309135 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8D30DC23D9CCD400309135 /* Article.swift */; };
 		AC8EF8B523CF424C00B6AA80 /* ApplienceDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8EF8B423CF424C00B6AA80 /* ApplienceDetailVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AC07D597243B6AE70086A277 /* PlacesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesCell.swift; sourceTree = "<group>"; };
+		AC07D599243B6B150086A277 /* Applience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Applience.swift; sourceTree = "<group>"; };
+		AC07D59B243B6B570086A277 /* Places.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Places.swift; sourceTree = "<group>"; };
+		AC07D59D243DD0DD0086A277 /* PlacesMapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesMapVC.swift; sourceTree = "<group>"; };
 		AC1989D223C8AA6C000424F3 /* ApplienceCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplienceCell.swift; sourceTree = "<group>"; };
+		AC2F9EE6243202760021A191 /* MakeItEspresso.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeItEspresso.swift; sourceTree = "<group>"; };
+		AC2F9EE8243207430021A191 /* MakeItCappucino.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeItCappucino.swift; sourceTree = "<group>"; };
+		AC2F9EEA243207EF0021A191 /* MakeItFlatWhite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeItFlatWhite.swift; sourceTree = "<group>"; };
+		AC2F9EEC24320BB60021A191 /* MakeItLatte.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeItLatte.swift; sourceTree = "<group>"; };
+		AC2F9EEE24320BD20021A191 /* MakeItCaffeMacchiato.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeItCaffeMacchiato.swift; sourceTree = "<group>"; };
 		AC7D655423AE7F3200077A26 /* DIY Coffee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DIY Coffee.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC7D655723AE7F3200077A26 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AC7D655923AE7F3200077A26 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -42,7 +59,6 @@
 		AC7D659823B3AD6200077A26 /* Coffee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coffee.swift; sourceTree = "<group>"; };
 		AC7D659A23B3AEA200077A26 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		AC86D3CA23B686C800BA7AD7 /* CoffeeDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeDetailVC.swift; sourceTree = "<group>"; };
-		AC8D30DC23D9CCD400309135 /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
 		AC8EF8B423CF424C00B6AA80 /* ApplienceDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplienceDetailVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -94,6 +110,7 @@
 				AC7D657023AFDD3F00077A26 /* MainVCButton.swift */,
 				AC7D659623B38E1900077A26 /* CoffeeCell.swift */,
 				AC1989D223C8AA6C000424F3 /* ApplienceCell.swift */,
+				AC07D597243B6AE70086A277 /* PlacesCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -103,7 +120,8 @@
 			children = (
 				AC7D659823B3AD6200077A26 /* Coffee.swift */,
 				AC7D659A23B3AEA200077A26 /* DataService.swift */,
-				AC8D30DC23D9CCD400309135 /* Article.swift */,
+				AC07D599243B6B150086A277 /* Applience.swift */,
+				AC07D59B243B6B570086A277 /* Places.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -116,7 +134,13 @@
 				AC86D3CA23B686C800BA7AD7 /* CoffeeDetailVC.swift */,
 				AC7D657223B21F0E00077A26 /* ApplienceVC.swift */,
 				AC7D657423B21F1D00077A26 /* PlacesVC.swift */,
+				AC07D59D243DD0DD0086A277 /* PlacesMapVC.swift */,
 				AC8EF8B423CF424C00B6AA80 /* ApplienceDetailVC.swift */,
+				AC2F9EE6243202760021A191 /* MakeItEspresso.swift */,
+				AC2F9EE8243207430021A191 /* MakeItCappucino.swift */,
+				AC2F9EEA243207EF0021A191 /* MakeItFlatWhite.swift */,
+				AC2F9EEC24320BB60021A191 /* MakeItLatte.swift */,
+				AC2F9EEE24320BD20021A191 /* MakeItCaffeMacchiato.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -191,8 +215,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC2F9EE7243202760021A191 /* MakeItEspresso.swift in Sources */,
+				AC07D59E243DD0DD0086A277 /* PlacesMapVC.swift in Sources */,
 				AC86D3CB23B686C800BA7AD7 /* CoffeeDetailVC.swift in Sources */,
 				AC7D657323B21F0E00077A26 /* ApplienceVC.swift in Sources */,
+				AC2F9EEB243207EF0021A191 /* MakeItFlatWhite.swift in Sources */,
 				AC7D657123AFDD3F00077A26 /* MainVCButton.swift in Sources */,
 				AC1989D323C8AA6C000424F3 /* ApplienceCell.swift in Sources */,
 				AC7D655C23AE7F3200077A26 /* MainVC.swift in Sources */,
@@ -200,11 +227,16 @@
 				AC7D659723B38E1900077A26 /* CoffeeCell.swift in Sources */,
 				AC7D655823AE7F3200077A26 /* AppDelegate.swift in Sources */,
 				AC7D659923B3AD6200077A26 /* Coffee.swift in Sources */,
+				AC07D598243B6AE70086A277 /* PlacesCell.swift in Sources */,
+				AC2F9EE9243207430021A191 /* MakeItCappucino.swift in Sources */,
 				AC7D657523B21F1D00077A26 /* PlacesVC.swift in Sources */,
+				AC2F9EED24320BB60021A191 /* MakeItLatte.swift in Sources */,
+				AC07D59A243B6B150086A277 /* Applience.swift in Sources */,
 				AC7D656F23AFDD1E00077A26 /* CoffeeVC.swift in Sources */,
+				AC07D59C243B6B570086A277 /* Places.swift in Sources */,
 				AC7D655A23AE7F3200077A26 /* SceneDelegate.swift in Sources */,
+				AC2F9EEF24320BD20021A191 /* MakeItCaffeMacchiato.swift in Sources */,
 				AC7D659B23B3AEA200077A26 /* DataService.swift in Sources */,
-				AC8D30DD23D9CCD400309135 /* Article.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
